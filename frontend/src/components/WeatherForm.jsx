@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-const API_URL = 'http://127.0.0.1:8000/api';
+const API_URL = 'https://django-react-weather-app.onrender.com/api';
 
 const WeatherForm = () => {
   const [formData, setFormData] = useState({

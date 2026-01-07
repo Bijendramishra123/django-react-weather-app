@@ -22,7 +22,7 @@ ChartJS.register(
   Legend
 );
 
-const API_URL = 'http://127.0.0.1:8000/api';
+const API_URL = 'https://django-react-weather-app.onrender.com/api';
 
 const WeatherDashboard = () => {
   const [weatherData, setWeatherData] = useState([]);
